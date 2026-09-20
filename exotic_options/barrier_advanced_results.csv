@@ -1,0 +1,10 @@
+method,price,variance,variance_reduction_pct,time_sec
+1. Naive discrete + continuity correction (original),0.2545,1.69602,0.0,0.321
+2. Naive discrete + vanilla-call control variate (original),0.2546,1.69203,0.23,0.331
+"3a. Brownian bridge, plain",0.2669,1.5514,8.53,0.704
+3b. Brownian bridge + antithetic,0.2673,1.55456,8.34,1.332
+3c. Brownian bridge + vanilla-call control variate,0.2669,1.54761,8.75,0.688
+3d. Brownian bridge + antithetic + control variate,0.2673,1.55076,8.56,1.35
+4. Brownian bridge + importance sampling (shift=+0.10),0.2677,1.47389,13.1,0.724
+5. Brownian bridge + survival-based control variate (corr=0.20),0.2671,1.48897,12.21,0.694
+6. Brownian bridge + state-dependent corridor-pinning tilt (strength=0.80),0.2673,0.35002,79.36,0.798

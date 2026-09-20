@@ -1,0 +1,5 @@
+method,price,mc_std_error,95%_CI_halfwidth,per_path_variance,avg_time_sec,variance_reduction_%,efficiency_ratio_(var_speedup/time_cost)
+plain,0.2545,0.00291,0.00571,1.69602,0.2827,0.0,1.0
+antithetic,0.2548,0.00291,0.00571,1.69676,0.2205,-0.04,1.281
+control,0.2546,0.00291,0.0057,1.69203,0.2639,0.23,1.074
+antithetic_control,0.2548,0.00291,0.0057,1.69277,0.2206,0.19,1.284
